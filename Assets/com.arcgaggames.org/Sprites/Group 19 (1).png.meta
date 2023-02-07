@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: c478d5a4a397a674e9fcadb49da0804c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1480065570511193550
+    second: Group 19 (1)_0
+  - first:
+      213: -2645374683963278700
+    second: Group 19 (1)_1
+  - first:
+      213: 1729751070189692286
+    second: Group 19 (1)_2
+  - first:
+      213: -3697330619804699089
+    second: Group 19 (1)_3
+  - first:
+      213: -2409391136814868786
+    second: Group 19 (1)_4
+  - first:
+      213: -6060908715883056230
+    second: Group 19 (1)_5
+  - first:
+      213: 6725094902609374485
+    second: Group 19 (1)_6
+  - first:
+      213: -39019385251267318
+    second: Group 19 (1)_7
+  - first:
+      213: -8679384422876434606
+    second: Group 19 (1)_8
+  - first:
+      213: 2781527916821669575
+    second: Group 19 (1)_9
+  - first:
+      213: -5213160588644377784
+    second: Group 19 (1)_10
+  - first:
+      213: -1767818782823697724
+    second: Group 19 (1)_11
+  - first:
+      213: -3438794091839682772
+    second: Group 19 (1)_12
+  - first:
+      213: -4385469249221156231
+    second: Group 19 (1)_13
+  - first:
+      213: 7823421182317229888
+    second: Group 19 (1)_14
+  - first:
+      213: 2276753354761737701
+    second: Group 19 (1)_15
+  - first:
+      213: -8581780070467235881
+    second: Group 19 (1)_16
+  - first:
+      213: 7551562895751741107
+    second: Group 19 (1)_17
+  - first:
+      213: -156186596311583709
+    second: Group 19 (1)_18
+  - first:
+      213: 4273403659223148125
+    second: Group 19 (1)_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Group 19 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23af4619430c57be0800000000000000
+      internalID: -1480065570511193550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 992
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49abe80adbdb94bd0800000000000000
+      internalID: -2645374683963278700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 992
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7522880f6f410810800000000000000
+      internalID: 1729751070189692286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 992
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26bd5df36170bcc0800000000000000
+      internalID: -3697330619804699089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6dc2dc68f109ed0800000000000000
+      internalID: -2409391136814868786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 744
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93b8bd82a353eba0800000000000000
+      internalID: -6060908715883056230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 744
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d62dece26545d50800000000000000
+      internalID: 6725094902609374485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 744
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d7eba6310657ff0800000000000000
+      internalID: -39019385251267318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f246d4ad1ac8780800000000000000
+      internalID: -8679384422876434606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 496
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6ecf637e8f99620800000000000000
+      internalID: 2781527916821669575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 496
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b19cca01227a7b0800000000000000
+      internalID: -5213160588644377784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 496
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2b78eee227777e0800000000000000
+      internalID: -1767818782823697724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270f243ef2f640d0800000000000000
+      internalID: -3438794091839682772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 248
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97226caf3fea323c0800000000000000
+      internalID: -4385469249221156231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 248
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047f8447d10629c60800000000000000
+      internalID: 7823421182317229888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 248
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e590c70d17a89f10800000000000000
+      internalID: 2276753354761737701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df064f7e7467e880800000000000000
+      internalID: -8581780070467235881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be7d4c917a8cc860800000000000000
+      internalID: 7551562895751741107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324bb204e1d15ddf0800000000000000
+      internalID: -156186596311583709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 19 (1)_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 237.5
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a9d19cfd2e4b30800000000000000
+      internalID: 4273403659223148125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
