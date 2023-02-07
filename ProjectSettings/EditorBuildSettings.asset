@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Third/Scenes/demo.unity
+    guid: 4e1cfeaa3a2699e47a0b14583428ca1a
+  - enabled: 1
     path: Assets/com.arcgaggames.org/Scenes/Game.unity
     guid: 53bf4afcdf4f43a4f9e5fd5854d3787d
   m_configObjects: {}
