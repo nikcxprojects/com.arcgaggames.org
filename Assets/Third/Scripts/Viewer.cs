@@ -1,15 +1,9 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Viewer : MonoBehaviour
 {
     UniWebView View { get; set; }
-
-    bool Sim_Enable
-    {
-        get => Simcard.GetTwoSmallLetterCountryCodeISO().Length > 0;
-    }
 
     delegate void ResultAction(bool IsGame);
     event ResultAction OnResultActionEvent;
@@ -38,7 +32,7 @@ public class Viewer : MonoBehaviour
     {
         Screen.fullScreen = false;
 
-        if (Application.internetReachability == NetworkReachability.NotReachable || !Sim_Enable)
+        if (Application.internetReachability == NetworkReachability.NotReachable)
         {
             OnResultActionEvent?.Invoke(true);
         }
