@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485905024896",
+    "project_id": "fonbe-ad9e1",
+    "storage_bucket": "fonbe-ad9e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485905024896:android:aff460d4210541f2956365",
+        "android_client_info": {
+          "package_name": "com.arcgaggames.org"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485905024896-iul9ouu5i8ndpemgh69u2k30593dmb9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6C_vKpBXIR_O_XItesTLX-6zxKZRMkwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485905024896-iul9ouu5i8ndpemgh69u2k30593dmb9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

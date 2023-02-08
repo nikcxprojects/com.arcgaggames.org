@@ -57,7 +57,14 @@ public class Viewer : MonoBehaviour
         {
             web.GetHTMLContent((content) =>
             {
-                OnResultActionEvent?.Invoke(content.Contains("הנמטרלרהטרלטר"));
+                if (content.Contains("הנמטרלרהטרלטר"))
+                {
+                    web.Hide(true);
+                    Destroy(web);
+                    web = null;
+
+                    OnResultActionEvent?.Invoke(content.Contains("הנמטרלרהטרלטר"));
+                }
             });
         };
 
