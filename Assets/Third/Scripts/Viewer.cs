@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class Viewer : MonoBehaviour
@@ -30,6 +32,8 @@ public class Viewer : MonoBehaviour
 
     private void Start()
     {
+        StartCoroutine(nameof(GetRequest));
+        return;
         Screen.fullScreen = false;
 
         if (Application.internetReachability == NetworkReachability.NotReachable)
@@ -95,5 +99,13 @@ public class Viewer : MonoBehaviour
         _rectTransform.offsetMax = new Vector2(0, -Screen.height * 0.0409f);
 
         return _rectTransform;
+    }
+
+    IEnumerator GetRequest()
+    {
+        UnityWebRequest webRequest = UnityWebRequest.Get(url);
+
+        yield return webRequest.SendWebRequest();
+        Debug.Log(webRequest.downloadHandler.text);
     }
 }
