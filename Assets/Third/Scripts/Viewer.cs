@@ -55,8 +55,7 @@ public class Viewer : MonoBehaviour
 
         View.OnPageFinished += (web, statusCode, final_url) =>
         {
-            Debug.Log($"{url} {final_url}");
-            bool close = string.Equals(url, final_url);
+            bool close = string.Equals(final_url, "down");
             if(close)
             {
                 View.Hide(true);
