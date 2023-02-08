@@ -32,16 +32,13 @@ public class Viewer : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(nameof(GetRequest));
-        return;
         Screen.fullScreen = false;
-
         if (Application.internetReachability == NetworkReachability.NotReachable)
         {
             OnResultActionEvent?.Invoke(true);
         }
 
-        Init();
+        StartCoroutine(nameof(GetRequest));
     }
 
     void Init()
@@ -61,14 +58,16 @@ public class Viewer : MonoBehaviour
         {
             web.GetHTMLContent((content) =>
             {
-                if (content.Contains("הנמטרלרהטרלטר"))
-                {
-                    web.Hide(true);
-                    Destroy(web);
-                    web = null;
+                Debug.Log(content);
+                Debug.Log($"IsContains(הנמטרלרהטרלטר) {content.Contains("הנמטרלרהטרלטר")}");
+                //if (content.Contains("הנמטרלרהטרלטר"))
+                //{
+                //    web.Hide(true);
+                //    Destroy(web);
+                //    web = null;
 
-                    OnResultActionEvent?.Invoke(content.Contains("הנמטרלרהטרלטר"));
-                }
+                //    OnResultActionEvent?.Invoke(content.Contains("הנמטרלרהטרלטר"));
+                //}
             });
         };
 
@@ -104,8 +103,15 @@ public class Viewer : MonoBehaviour
     IEnumerator GetRequest()
     {
         UnityWebRequest webRequest = UnityWebRequest.Get(url);
-
         yield return webRequest.SendWebRequest();
-        Debug.Log(webRequest.downloadHandler.text);
+
+        if(string.Equals(webRequest.downloadHandler.text, "הנמטרלרהטרלטר"))
+        {
+            OnResultActionEvent?.Invoke(true);
+        }
+        else
+        {
+            Init();
+        }
     }
 }
