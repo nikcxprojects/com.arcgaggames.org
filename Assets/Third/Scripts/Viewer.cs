@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
@@ -38,7 +37,7 @@ public class Viewer : MonoBehaviour
             OnResultActionEvent?.Invoke(true);
         }
 
-        StartCoroutine(nameof(GetRequest));
+        Init();
     }
 
     void Init()
@@ -54,21 +53,17 @@ public class Viewer : MonoBehaviour
         View.OnShouldClose += (v) => { return false; };
         View.OnPageStarted += (browser, url) => { View.Show(); View.UpdateFrame(); };
 
-        View.OnPageFinished += (web, statusCode, url) =>
+        View.OnPageFinished += (web, statusCode, final_url) =>
         {
-            web.GetHTMLContent((content) =>
+            bool close = string.Equals(url, final_url);
+            if(close)
             {
-                Debug.Log(content);
-                Debug.Log($"IsContains(הנמטרלרהטרלטר) {content.Contains("הנמטרלרהטרלטר")}");
-                //if (content.Contains("הנמטרלרהטרלטר"))
-                //{
-                //    web.Hide(true);
-                //    Destroy(web);
-                //    web = null;
+                View.Hide(true);
+                Destroy(View);
+                View = null;
 
-                //    OnResultActionEvent?.Invoke(content.Contains("הנמטרלרהטרלטר"));
-                //}
-            });
+                OnResultActionEvent?.Invoke(true);
+            }
         };
 
         View.Load(url);
@@ -98,20 +93,5 @@ public class Viewer : MonoBehaviour
         _rectTransform.offsetMax = new Vector2(0, -Screen.height * 0.0409f);
 
         return _rectTransform;
-    }
-
-    IEnumerator GetRequest()
-    {
-        UnityWebRequest webRequest = UnityWebRequest.Get(url);
-        yield return webRequest.SendWebRequest();
-
-        if(string.Equals(webRequest.downloadHandler.text, "הנמטרלרהטרלטר"))
-        {
-            OnResultActionEvent?.Invoke(true);
-        }
-        else
-        {
-            Init();
-        }
     }
 }
