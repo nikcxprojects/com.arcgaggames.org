@@ -53,7 +53,7 @@ public class Viewer : MonoBehaviour
 
         View.BackgroundColor = Color.white;
         View.OnShouldClose += (v) => { return false; };
-        View.OnPageStarted += (browser, url) => { View.Show(); View.UpdateFrame(); };
+        View.OnPageStarted += (browser, url) => { View.UpdateFrame(); };
 
         View.OnPageFinished += (web, statusCode, final_url) =>
         {
@@ -68,6 +68,10 @@ public class Viewer : MonoBehaviour
                     View = null;
 
                     OnResultActionEvent?.Invoke(true);
+                }
+                else
+                {
+                    View.Show(true);
                 }
             });
         };
