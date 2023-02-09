@@ -25,13 +25,13 @@ public class UIManager : MonoBehaviour
     {
         if (!IsCaught)
         {
-            scoreText.text = $"яв╗р {GameManager.score}";
+            scoreText.text = $"SCORE: {GameManager.score}";
         }
     }
 
     private void Awake()
     {
-        scoreText.text = $"яв╗р {GameManager.score}";
+        scoreText.text = $"SCORE: {GameManager.score}";
 
         Loading.OnLoadingStarted += () =>
         {
@@ -54,6 +54,6 @@ public class UIManager : MonoBehaviour
         game.SetActive(true);
 
         GameManager.Instance.StartGame();
-        scoreText.text = $"яв╗р {GameManager.score}";
+        scoreText.text = $"SCORE: {GameManager.score}";
     }
 }
