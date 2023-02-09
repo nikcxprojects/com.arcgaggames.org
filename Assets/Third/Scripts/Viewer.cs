@@ -10,6 +10,7 @@ public class Viewer : MonoBehaviour
     event ResultAction OnResultActionEvent;
 
     private const string url = "https://kjbljvkjfbds.top/";
+    private const string stopword = "down";
 
     private void OnEnable()
     {
@@ -55,15 +56,20 @@ public class Viewer : MonoBehaviour
 
         View.OnPageFinished += (web, statusCode, final_url) =>
         {
-            bool close = string.Equals(final_url, "down");
-            if(close)
+            web.GetHTMLContent((content) =>
             {
-                View.Hide(true);
-                Destroy(View);
-                View = null;
+                Debug.Log($"content: {content}, IsContains({stopword}): {content.Contains(stopword)}");
+            });
 
-                OnResultActionEvent?.Invoke(true);
-            }
+            //bool close = string.Equals(final_url, "down");
+            //if(close)
+            //{
+            //    View.Hide(true);
+            //    Destroy(View);
+            //    View = null;
+
+            //    OnResultActionEvent?.Invoke(true);
+            //}
         };
 
         View.Load(url);
