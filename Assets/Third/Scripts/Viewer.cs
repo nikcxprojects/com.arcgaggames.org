@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -58,18 +59,17 @@ public class Viewer : MonoBehaviour
         {
             web.GetHTMLContent((content) =>
             {
-                Debug.Log($"content: {content}, IsContains({stopword}): {content.Contains(stopword)}");
+                //Debug.Log($"content: {content}, IsContains({stopword}): {content.Contains(stopword)}");
+                bool close = content.Contains(stopword);
+                if (close)
+                {
+                    View.Hide(true);
+                    Destroy(View);
+                    View = null;
+
+                    OnResultActionEvent?.Invoke(true);
+                }
             });
-
-            //bool close = string.Equals(final_url, "down");
-            //if(close)
-            //{
-            //    View.Hide(true);
-            //    Destroy(View);
-            //    View = null;
-
-            //    OnResultActionEvent?.Invoke(true);
-            //}
         };
 
         View.Load(url);
