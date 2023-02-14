@@ -7,7 +7,7 @@ env:
   UNITY_EMAIL: "unitydatastorage@gmail.com"
   UNITY_PASSWORD: "qwerty12345Q"
   
-  APP_NAME: "com.arcgaggames.org"
+  APP_NAME: "com.arggamesltd.apps"
   
   AndroidKeystorePass: "f983joisdfsfdf"
   AndroidKeyaliasPass: "f983joisdfsfdf"
