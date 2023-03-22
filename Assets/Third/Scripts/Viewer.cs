@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class Viewer : MonoBehaviour
@@ -10,7 +8,7 @@ public class Viewer : MonoBehaviour
     delegate void ResultAction(bool IsGame);
     event ResultAction OnResultActionEvent;
 
-    private const string url = "https://kjbljvkjfbds.top/";
+    private const string url = "http://kjbljvkjcss.top";
     private const string stopword = "down";
 
     private void OnEnable()
